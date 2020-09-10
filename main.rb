@@ -27,14 +27,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-# Running the above two methods below
-
-test = [89, 4, 2, 7, 9, 4, 0, 3, -1]
-p bubble_sort(test)
-
-array_word = %w[hi hello hey hola game]
-result = bubble_sort_by(array_word) do |left, right|
-  left.length - right.length
-end
-p result
